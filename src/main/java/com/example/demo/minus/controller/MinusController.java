@@ -31,22 +31,7 @@ public class MinusController {
 			model.addAttribute("result", result);
 		
 			return "minus.html";
-
-			//		model.addAttribute("num1", num1);
-			//		model.addAttribute("num2", num2);
-			//		int result = MinusService.add(num1, num2);
-			//		result = String.valueOf(minusService.(5, 6));
-
 		}
 		
 	}
 
-
-//	public String add(Model model) {
-
-//		return "multi.html";
-
-//	private int calcu(int num1, int num2) {
-//		int result = num1 - num2;
-//		return result;
-//	}
